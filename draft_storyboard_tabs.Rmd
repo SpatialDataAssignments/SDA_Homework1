@@ -1,57 +1,56 @@
 ---
-title: "THEMATICS - tabs"
+title: "Homework #1: Thematic Maps"
+author: Haley Chinander
 output:
   flexdashboard::flex_dashboard:
     navbar:
-      - { icon: "fa-github", href: "https://github.com/DACSS-Spatial/The-Thematics", align: right }
-
+      - { icon: "fa-github", href: "https://github.com/SpatialDataAssignments/SDA_Homework1.git", align: right }
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard) # always
+library(flexdashboard) 
 ```
 
 ## Sidebar {.sidebar}
 
-
-Preparing the dashboard based on the instructions given in class!
+Thematic maps of Europe showing mobile user subscriptions by country.
 
 ## Column {.tabset .tabset-fade}
 
-
-### DDM 1
+### Map 1: Static DDM
 
 ```{r}
 readRDS("plot1_a.rds")
 ```
 
-
-### DDM 2
+### Map 1B: Interactive DDM
 
 ```{r}
 readRDS("plot1_b.rds")
 ```
 
-### PSM 1
+
+### Map 2: Static PSM
 
 ```{r}
 readRDS("plot2_a.rds")
 ```
 
-### PSM 2
+### Map 2B: Interactive PSM
 
 ```{r}
 readRDS("plot2_b.rds")
 ```
 
 
-### CHORO 1
+### Map 3: Static Choro
 
 ```{r}
 readRDS("plot3_a.rds")
 ```
 
-### CHORO 2
+
+### Map 3B: Interactive Choro
 
 ```{r}
 readRDS("plot3_b.rds")
